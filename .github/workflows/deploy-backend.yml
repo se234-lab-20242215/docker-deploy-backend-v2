@@ -2,7 +2,7 @@ name: Deploy Application to Server
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "new-grading" ]
   pull_request:
     branches: [ "main" ]
 
